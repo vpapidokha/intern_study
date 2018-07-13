@@ -1,0 +1,9 @@
+### Maven
+
+**/target/
+dist-0.0.1-SNAPSHOT/
+
+### Gradle
+
+.gradle
+build/

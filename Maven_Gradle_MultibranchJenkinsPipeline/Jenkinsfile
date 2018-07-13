@@ -1,0 +1,30 @@
+pipeline {
+	agent any
+	stages {
+		stage('Build') {
+			steps {
+				sh './gradlew build'
+			}
+		}
+		stage('Test') {
+			steps {
+				sh './gradlew sonarqube'
+				sh 'pwd'
+			}
+		}
+		stage('Deploy') {
+			when {
+				branch 'Develop'
+			}
+			steps {
+				sh './gradlew artifactoryPublish'
+			}
+		}		
+	}
+	post {
+		always {
+			sh './gradlew zip'
+			archiveArtifacts 'build/distributions/*.zip'
+		}
+	}
+}

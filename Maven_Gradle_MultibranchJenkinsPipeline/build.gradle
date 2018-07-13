@@ -1,0 +1,66 @@
+plugins {
+  id "org.sonarqube" version "2.6.2"
+  id "base"
+  id "com.jfrog.artifactory" version "4.7.5"
+}
+
+allprojects {
+  apply plugin: 'java'
+}
+apply plugin: 'maven'
+apply plugin: 'org.sonarqube'
+apply plugin: 'maven-publish'
+
+group = 'com.engagepoint.example'
+version = '0.0.1-SNAPSHOT'
+
+description = """Maven Example project"""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+allprojects {
+  repositories {
+    maven {
+            url 'http://university-main.engagepoint.ua:8081/artifactory/plugins-snapshot'
+            credentials {
+                username = "vladyslav.papidokha"
+                password = "password"
+            }
+        }
+    jcenter()
+    mavenLocal()
+    mavenCentral()
+    maven { url "http://repo.maven.apache.org/maven2" }
+  }
+}
+
+task zip(type: Zip, group: "Archive", description: "Archives sources in a zip file") {
+  from "./java-module-example/build/libs"
+  from "./java-web-app-example/build/libs"
+}
+
+publishing {
+  publications {
+    mavenJava(MavenPublication) {
+      from components.java
+    }
+  }
+}
+
+artifactory {
+  contextUrl = 'http://university-main.engagepoint.ua:8081/artifactory'
+  publish {
+    repository {
+      repoKey = 'libs-snapshot-local'
+      username = 'vladyslav.papidokha'
+      password = 'password'
+      maven = true
+    }
+    defaults {
+        publications('mavenJava')
+        publishArtifacts = true
+    }
+    clientConfig.info.setBuildName('Maven-example_final')
+  }
+}

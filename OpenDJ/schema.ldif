@@ -1,0 +1,2080 @@
+dn: dc=pain,dc=com
+objectClass: top
+objectClass: domain
+dc: pain
+entryUUID: dc3add2e-0bb5-371f-b8bd-ad7df9c252d1
+
+dn: ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Ukraine
+entryUUID: ec5f05ef-2bd1-4247-b3c6-9be0b6ee3148
+createTimestamp: 20180615120508Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: USA
+entryUUID: 43dfc63f-e1df-47d1-8a00-7431f8e42d5d
+createTimestamp: 20180615120935Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: France
+entryUUID: a1ad8406-351a-4af6-be92-484449020ea2
+createTimestamp: 20180615120946Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Italy
+entryUUID: ed38f8f0-9a4c-44e3-b351-519dea3add3b
+createTimestamp: 20180615120954Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Kyiv
+entryUUID: 38d7a018-5c5c-4bcc-b7f5-b3d616c47ecb
+createTimestamp: 20180615121305Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Lviv
+entryUUID: c3a8fae6-c8a7-486a-a188-319c1e986c12
+createTimestamp: 20180615121333Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Odesa
+entryUUID: 285a0aac-1195-474e-9590-776582af52a5
+createTimestamp: 20180615121430Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Rome
+entryUUID: 11c17fb8-290c-49a2-8310-efcb2eaeca1f
+createTimestamp: 20180615121540Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Venece
+entryUUID: eba81c18-25b1-40f3-9ef0-e990f46cf04e
+createTimestamp: 20180615121603Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Naples
+entryUUID: a6123656-e18c-4c91-affe-e0fc4a638366
+createTimestamp: 20180615121650Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Paris
+entryUUID: 9f5ce9b0-3b32-47ba-8c5a-17fb21e969d6
+createTimestamp: 20180615121659Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+st: New York
+ou: New York
+postalCode: 87148923
+postalAddress: Some street
+description: Office in New York
+l: New York
+entryUUID: a0559586-24e7-43ea-b46f-8d2646b67c0f
+createTimestamp: 20180615121738Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: South Park
+entryUUID: a3e480cc-a301-44f6-bcdc-2716500f3fb2
+createTimestamp: 20180615121806Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Detroit
+entryUUID: 08685900-390d-4ab0-859d-c895809e1596
+createTimestamp: 20180615121811Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: New Orlean
+entryUUID: 72d729da-fbff-4269-8b55-6c4da7a84e1e
+createTimestamp: 20180615121819Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 3201602c-f5fb-400c-bab4-1b8781d4a39a
+createTimestamp: 20180615131008Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 90dfd92b-6749-4316-b003-0e00747c0f85
+createTimestamp: 20180615131026Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: c06b60e6-1826-4e01-8a3e-72c94dd75274
+createTimestamp: 20180615131034Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 5c75c154-3a98-49ea-87bd-d9fbab052f21
+createTimestamp: 20180615131043Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 3c2b64e5-7a5a-47b3-a305-3c53c423d1ca
+createTimestamp: 20180615131053Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 6f093aed-e931-4715-8355-6903077391c9
+createTimestamp: 20180615131100Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 6755217f-8e90-499d-85cf-461630d9a487
+createTimestamp: 20180615131108Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 6f2e6305-570a-42b6-8609-1c2084184dc2
+createTimestamp: 20180615131113Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 17898912-26f1-47af-92f2-00330871e0ca
+createTimestamp: 20180615131120Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: e1e1c723-c8f9-4bb1-b7bc-a8dc4d009714
+createTimestamp: 20180615131125Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 10b9565f-5abb-4738-b167-4e10fac71d74
+createTimestamp: 20180615131132Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 6170a79c-0f24-4343-ba25-d3636bdb6051
+createTimestamp: 20180615131515Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 661bea48-4bc1-41af-9290-addd92e5c3b2
+createTimestamp: 20180615131704Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 83d5b64e-3b75-4b98-8440-e4329028d060
+createTimestamp: 20180615131905Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: cc33d90d-c42e-4091-ad4b-f2d5083e00b1
+createTimestamp: 20180615131949Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: c9210db1-aed3-43d9-bec5-b3999fedfb74
+createTimestamp: 20180615132004Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 524d0dd6-964f-4534-8b58-924ca907964d
+createTimestamp: 20180615132004Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: cc19ddc9-044c-4838-b3c4-e54e04b8bfb2
+createTimestamp: 20180615132004Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: ff8776f9-c823-4ed1-84e0-8506ea695434
+createTimestamp: 20180615132004Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: f0574631-5b2b-496d-9569-b289c477e49c
+createTimestamp: 20180615132011Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 51c91e2d-fea2-4948-9780-9b600925c6f8
+createTimestamp: 20180615132011Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: f2c72b5d-2f6e-4d50-8691-629e2e42b5e5
+createTimestamp: 20180615132011Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: f5b67bd9-d0f3-4d0f-9c60-7df690bcf700
+createTimestamp: 20180615132011Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: f4b5aabd-5b9b-463d-84cf-6b2331aa9811
+createTimestamp: 20180615132021Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: e78e7aec-a4eb-4b9d-bbe1-d8458a4c0fe5
+createTimestamp: 20180615132021Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 1f6ced4c-df37-485e-9660-9f9d4102e993
+createTimestamp: 20180615132021Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: e61104f4-8876-49dd-b679-4946714ccc7b
+createTimestamp: 20180615132021Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 943972a7-4d1c-4a66-8387-19bad6118576
+createTimestamp: 20180615132028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 175d50a6-358a-44df-a5af-fecfd0dd0470
+createTimestamp: 20180615132028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 63cfde1a-af66-4852-81ea-65d770e0a4a5
+createTimestamp: 20180615132028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: f62d17de-ccd3-4c67-9979-831d50a6b5a1
+createTimestamp: 20180615132028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: da0e15c9-a991-4663-9a21-d2ea67ca19c7
+createTimestamp: 20180615132038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 91ba3f0a-83a0-43e1-8cef-2c401eb07320
+createTimestamp: 20180615132038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 05865e6e-76de-4795-88cc-d60addc962f0
+createTimestamp: 20180615132038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: 50be84c4-1752-47e1-a6ea-b347fc8e5450
+createTimestamp: 20180615132038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 5deea324-393f-406f-a9ab-8df9fd96124d
+createTimestamp: 20180615132046Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: ec9f6eb0-ea36-4c9a-a2db-1b2fd2a66001
+createTimestamp: 20180615132046Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: afba253e-5ea5-45dd-8d7b-2539453da914
+createTimestamp: 20180615132046Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: d4f13225-8536-42e2-a050-a548104f1136
+createTimestamp: 20180615132046Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 842b43a0-4f4f-445c-b7e8-4c9575073292
+createTimestamp: 20180615132051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 67264a4d-672d-479e-a17f-b9092dbfd1ec
+createTimestamp: 20180615132051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: bdc1e93e-ef71-4233-8840-f728e2ad899f
+createTimestamp: 20180615132051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: f1000b5f-e2e5-41c8-8dcf-35e019f1d06a
+createTimestamp: 20180615132051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 069c7df5-8eaf-49e9-82fa-ee3eea93a54d
+createTimestamp: 20180615132058Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 0001359e-8ff8-40ca-8452-d8d279dc1655
+createTimestamp: 20180615132058Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 90ae377f-b4c9-453b-9036-4f2d4a2ef8e1
+createTimestamp: 20180615132058Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: 3c90cff1-8d0f-4042-8ffd-893f889f7f74
+createTimestamp: 20180615132058Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 0a787c22-b048-4547-99bd-26d011012c96
+createTimestamp: 20180615132104Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 9881ac86-0d20-45ec-846b-69d97941016e
+createTimestamp: 20180615132104Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 93ec09c9-ba4a-48f1-a35b-28440fda0e13
+createTimestamp: 20180615132104Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: 93f69eca-23d7-41ab-b8b5-9ed26f963e77
+createTimestamp: 20180615132104Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 44d4b96f-3e01-4a12-8ac6-a0cef23135d7
+createTimestamp: 20180615132111Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: d2776de8-0fac-4e5c-9b10-fafc1d693f8b
+createTimestamp: 20180615132111Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 5d0a289a-d32a-434d-bdde-0226279ee0c8
+createTimestamp: 20180615132111Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: 5dd9b0ef-f15e-4c64-92b7-68fb0a2ad43f
+createTimestamp: 20180615132111Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=vpapidokha,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: vpapidokha
+uidNumber: 5744
+homeDirectory: /home/vpapidokha
+givenName: Vladyslav
+initials: VP
+gidNumber: 0
+displayName: vpapidokha
+sn: Papidokha
+cn: vpapidokha
+loginShell: bash
+entryUUID: ed8ffe63-1236-494a-978f-3e4db8fab3ca
+createTimestamp: 20180615132627Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=vpapidokha,ou=Administrators,ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: extensibleObject
+objectClass: alias
+aliasedObjectName: uid=vpapidokha,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+uid: vpapidokha
+entryUUID: 7ab37178-4d21-48c8-9f9b-e9861add6094
+createTimestamp: 20180615132644Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: dc=pain,dc=com
+objectClass: top
+objectClass: domain
+dc: pain
+entryUUID: dc3add2e-0bb5-371f-b8bd-ad7df9c252d1
+
+dn: ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Ukraine
+entryUUID: ec5f05ef-2bd1-4247-b3c6-9be0b6ee3148
+createTimestamp: 20180615120508Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: USA
+entryUUID: 43dfc63f-e1df-47d1-8a00-7431f8e42d5d
+createTimestamp: 20180615120935Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: France
+entryUUID: a1ad8406-351a-4af6-be92-484449020ea2
+createTimestamp: 20180615120946Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Italy
+entryUUID: ed38f8f0-9a4c-44e3-b351-519dea3add3b
+createTimestamp: 20180615120954Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Kyiv
+entryUUID: 38d7a018-5c5c-4bcc-b7f5-b3d616c47ecb
+createTimestamp: 20180615121305Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Lviv
+entryUUID: c3a8fae6-c8a7-486a-a188-319c1e986c12
+createTimestamp: 20180615121333Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Odesa
+entryUUID: 285a0aac-1195-474e-9590-776582af52a5
+createTimestamp: 20180615121430Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Rome
+entryUUID: 11c17fb8-290c-49a2-8310-efcb2eaeca1f
+createTimestamp: 20180615121540Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Venece
+entryUUID: eba81c18-25b1-40f3-9ef0-e990f46cf04e
+createTimestamp: 20180615121603Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Naples
+entryUUID: a6123656-e18c-4c91-affe-e0fc4a638366
+createTimestamp: 20180615121650Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Paris
+entryUUID: 9f5ce9b0-3b32-47ba-8c5a-17fb21e969d6
+createTimestamp: 20180615121659Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+st: New York
+ou: New York
+postalCode: 87148923
+postalAddress: Some street
+description: Office in New York
+l: New York
+entryUUID: a0559586-24e7-43ea-b46f-8d2646b67c0f
+createTimestamp: 20180615121738Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: South Park
+entryUUID: a3e480cc-a301-44f6-bcdc-2716500f3fb2
+createTimestamp: 20180615121806Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Detroit
+entryUUID: 08685900-390d-4ab0-859d-c895809e1596
+createTimestamp: 20180615121811Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: New Orlean
+entryUUID: 72d729da-fbff-4269-8b55-6c4da7a84e1e
+createTimestamp: 20180615121819Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 3201602c-f5fb-400c-bab4-1b8781d4a39a
+createTimestamp: 20180615131008Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 90dfd92b-6749-4316-b003-0e00747c0f85
+createTimestamp: 20180615131026Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: c06b60e6-1826-4e01-8a3e-72c94dd75274
+createTimestamp: 20180615131034Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 5c75c154-3a98-49ea-87bd-d9fbab052f21
+createTimestamp: 20180615131043Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 3c2b64e5-7a5a-47b3-a305-3c53c423d1ca
+createTimestamp: 20180615131053Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 6f093aed-e931-4715-8355-6903077391c9
+createTimestamp: 20180615131100Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 6755217f-8e90-499d-85cf-461630d9a487
+createTimestamp: 20180615131108Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 6f2e6305-570a-42b6-8609-1c2084184dc2
+createTimestamp: 20180615131113Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 17898912-26f1-47af-92f2-00330871e0ca
+createTimestamp: 20180615131120Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: e1e1c723-c8f9-4bb1-b7bc-a8dc4d009714
+createTimestamp: 20180615131125Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 10b9565f-5abb-4738-b167-4e10fac71d74
+createTimestamp: 20180615131132Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 6170a79c-0f24-4343-ba25-d3636bdb6051
+createTimestamp: 20180615131515Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: c9210db1-aed3-43d9-bec5-b3999fedfb74
+createTimestamp: 20180615132004Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 524d0dd6-964f-4534-8b58-924ca907964d
+createTimestamp: 20180615132004Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: cc19ddc9-044c-4838-b3c4-e54e04b8bfb2
+createTimestamp: 20180615132004Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: ff8776f9-c823-4ed1-84e0-8506ea695434
+createTimestamp: 20180615132004Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: f0574631-5b2b-496d-9569-b289c477e49c
+createTimestamp: 20180615132011Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 51c91e2d-fea2-4948-9780-9b600925c6f8
+createTimestamp: 20180615132011Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: f2c72b5d-2f6e-4d50-8691-629e2e42b5e5
+createTimestamp: 20180615132011Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: f5b67bd9-d0f3-4d0f-9c60-7df690bcf700
+createTimestamp: 20180615132011Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: f4b5aabd-5b9b-463d-84cf-6b2331aa9811
+createTimestamp: 20180615132021Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: e78e7aec-a4eb-4b9d-bbe1-d8458a4c0fe5
+createTimestamp: 20180615132021Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 1f6ced4c-df37-485e-9660-9f9d4102e993
+createTimestamp: 20180615132021Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: e61104f4-8876-49dd-b679-4946714ccc7b
+createTimestamp: 20180615132021Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 943972a7-4d1c-4a66-8387-19bad6118576
+createTimestamp: 20180615132028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 175d50a6-358a-44df-a5af-fecfd0dd0470
+createTimestamp: 20180615132028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 63cfde1a-af66-4852-81ea-65d770e0a4a5
+createTimestamp: 20180615132028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: f62d17de-ccd3-4c67-9979-831d50a6b5a1
+createTimestamp: 20180615132028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: da0e15c9-a991-4663-9a21-d2ea67ca19c7
+createTimestamp: 20180615132038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 91ba3f0a-83a0-43e1-8cef-2c401eb07320
+createTimestamp: 20180615132038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 05865e6e-76de-4795-88cc-d60addc962f0
+createTimestamp: 20180615132038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: 50be84c4-1752-47e1-a6ea-b347fc8e5450
+createTimestamp: 20180615132038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 5deea324-393f-406f-a9ab-8df9fd96124d
+createTimestamp: 20180615132046Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: ec9f6eb0-ea36-4c9a-a2db-1b2fd2a66001
+createTimestamp: 20180615132046Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: afba253e-5ea5-45dd-8d7b-2539453da914
+createTimestamp: 20180615132046Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: d4f13225-8536-42e2-a050-a548104f1136
+createTimestamp: 20180615132046Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 842b43a0-4f4f-445c-b7e8-4c9575073292
+createTimestamp: 20180615132051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 67264a4d-672d-479e-a17f-b9092dbfd1ec
+createTimestamp: 20180615132051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: bdc1e93e-ef71-4233-8840-f728e2ad899f
+createTimestamp: 20180615132051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: f1000b5f-e2e5-41c8-8dcf-35e019f1d06a
+createTimestamp: 20180615132051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 069c7df5-8eaf-49e9-82fa-ee3eea93a54d
+createTimestamp: 20180615132058Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 0001359e-8ff8-40ca-8452-d8d279dc1655
+createTimestamp: 20180615132058Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 90ae377f-b4c9-453b-9036-4f2d4a2ef8e1
+createTimestamp: 20180615132058Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: 3c90cff1-8d0f-4042-8ffd-893f889f7f74
+createTimestamp: 20180615132058Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 0a787c22-b048-4547-99bd-26d011012c96
+createTimestamp: 20180615132104Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 9881ac86-0d20-45ec-846b-69d97941016e
+createTimestamp: 20180615132104Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 93ec09c9-ba4a-48f1-a35b-28440fda0e13
+createTimestamp: 20180615132104Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: 93f69eca-23d7-41ab-b8b5-9ed26f963e77
+createTimestamp: 20180615132104Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 44d4b96f-3e01-4a12-8ac6-a0cef23135d7
+createTimestamp: 20180615132111Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: d2776de8-0fac-4e5c-9b10-fafc1d693f8b
+createTimestamp: 20180615132111Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 5d0a289a-d32a-434d-bdde-0226279ee0c8
+createTimestamp: 20180615132111Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: 5dd9b0ef-f15e-4c64-92b7-68fb0a2ad43f
+createTimestamp: 20180615132111Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=vpapidokha,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: vpapidokha
+uidNumber: 5744
+homeDirectory: /home/vpapidokha
+givenName: Vladyslav
+initials: VP
+ou:: b3U9U2FsZXMsIG91PUdyb3Vwcywgb3U9UGFyaXMsIG91PUZyYW5jZSwgZGM9cGFpbiwgZGM9Y29tDQo=
+gidNumber: 0
+displayName: vpapidokha
+sn: Papidokha
+cn: vpapidokha
+loginShell: bash
+entryUUID: ed8ffe63-1236-494a-978f-3e4db8fab3ca
+createTimestamp: 20180615132627Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20180615144542Z
+
+dn: uid=temper,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: temper
+uidNumber: 3906
+homeDirectory: home
+givenName: Temp
+initials: TT
+gidNumber: 0
+displayName: temp
+sn: Temper
+cn: temp
+loginShell: bash
+entryUUID: 4b8b6795-3c14-48f0-a1b1-ac1d09449ff0
+createTimestamp: 20180615135028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=uuser,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: uuser
+uidNumber: 23889
+homeDirectory: home/uuser
+givenName: User
+initials: UU
+gidNumber: 0
+displayName: uuser
+sn: Userer
+cn: uuser
+loginShell: bash
+entryUUID: 0882350a-2354-4363-b1c2-8645500b3799
+createTimestamp: 20180615135051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=mmainy,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: mmainy
+uidNumber: 30943
+homeDirectory: /home/mainy
+givenName: Main
+initials: MM
+gidNumber: 0
+displayName: mmain
+sn: Mainy
+cn: mmain
+loginShell: bash
+entryUUID: b2c18df3-69f3-4c33-9b06-57ff2461b6ff
+createTimestamp: 20180615135115Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=ssomeonet,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: ssomeonet
+uidNumber: 58756
+homeDirectory: /home/ssomeoner
+givenName: Someone
+initials: SS
+gidNumber: 0
+displayName: ssomeone
+sn: Someoner
+cn: ssomeone
+loginShell: bash
+entryUUID: 6c092953-9dc7-48f1-8bf1-a788528651aa
+createTimestamp: 20180615135140Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=mboy,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: mboy
+uidNumber: 20663
+homeDirectory: /home/mboy
+givenName: Magic
+initials: MB
+gidNumber: 0
+displayName: mboy
+sn: Boy
+cn: mboy
+loginShell: bash
+entryUUID: 32def958-d911-4dd4-9b28-ca27e16b208c
+createTimestamp: 20180615135204Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=HR,ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: groupofnames
+objectClass: top
+member: cn=vpapidokha, cn=uuser, cn=temper, cn=mboy
+cn: HR
+entryUUID: 264a678f-dd63-4297-96d4-23462627a3d0
+createTimestamp: 20180615145547Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20180615145707Z
+
+dn: cn=Administrators,ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: groupOfNames
+objectClass: top
+member: cn=vpapidokha, cn=uuser, cn=temper, cn=ssomeonet
+cn: Administrators
+entryUUID: 44839319-4eb3-4a77-949d-9b9e17b069ff
+createTimestamp: 20180615145911Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=DevOps,ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: groupOfNames
+objectClass: top
+member: cn=vpapidokha, cn=temper, cn=mmainy, cn=ssomeonet
+cn: cn=DevOps
+cn: DevOps
+entryUUID: fd260456-16c0-462c-b11f-1939610e1332
+createTimestamp: 20180615150008Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: dc=pain,dc=com
+objectClass: top
+objectClass: domain
+dc: pain
+entryUUID: dc3add2e-0bb5-371f-b8bd-ad7df9c252d1
+
+dn: ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Ukraine
+entryUUID: ec5f05ef-2bd1-4247-b3c6-9be0b6ee3148
+createTimestamp: 20180615120508Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: USA
+entryUUID: 43dfc63f-e1df-47d1-8a00-7431f8e42d5d
+createTimestamp: 20180615120935Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: France
+entryUUID: a1ad8406-351a-4af6-be92-484449020ea2
+createTimestamp: 20180615120946Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Italy
+entryUUID: ed38f8f0-9a4c-44e3-b351-519dea3add3b
+createTimestamp: 20180615120954Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Kyiv
+entryUUID: 38d7a018-5c5c-4bcc-b7f5-b3d616c47ecb
+createTimestamp: 20180615121305Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Lviv
+entryUUID: c3a8fae6-c8a7-486a-a188-319c1e986c12
+createTimestamp: 20180615121333Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Odesa
+entryUUID: 285a0aac-1195-474e-9590-776582af52a5
+createTimestamp: 20180615121430Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Rome
+entryUUID: 11c17fb8-290c-49a2-8310-efcb2eaeca1f
+createTimestamp: 20180615121540Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Venece
+entryUUID: eba81c18-25b1-40f3-9ef0-e990f46cf04e
+createTimestamp: 20180615121603Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Naples
+entryUUID: a6123656-e18c-4c91-affe-e0fc4a638366
+createTimestamp: 20180615121650Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Paris
+entryUUID: 9f5ce9b0-3b32-47ba-8c5a-17fb21e969d6
+createTimestamp: 20180615121659Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+st: New York
+ou: New York
+postalCode: 87148923
+postalAddress: Some street
+description: Office in New York
+l: New York
+entryUUID: a0559586-24e7-43ea-b46f-8d2646b67c0f
+createTimestamp: 20180615121738Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: South Park
+entryUUID: a3e480cc-a301-44f6-bcdc-2716500f3fb2
+createTimestamp: 20180615121806Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Detroit
+entryUUID: 08685900-390d-4ab0-859d-c895809e1596
+createTimestamp: 20180615121811Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: New Orlean
+entryUUID: 72d729da-fbff-4269-8b55-6c4da7a84e1e
+createTimestamp: 20180615121819Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 3201602c-f5fb-400c-bab4-1b8781d4a39a
+createTimestamp: 20180615131008Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 90dfd92b-6749-4316-b003-0e00747c0f85
+createTimestamp: 20180615131026Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: c06b60e6-1826-4e01-8a3e-72c94dd75274
+createTimestamp: 20180615131034Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 5c75c154-3a98-49ea-87bd-d9fbab052f21
+createTimestamp: 20180615131043Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 3c2b64e5-7a5a-47b3-a305-3c53c423d1ca
+createTimestamp: 20180615131053Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 6f093aed-e931-4715-8355-6903077391c9
+createTimestamp: 20180615131100Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 6755217f-8e90-499d-85cf-461630d9a487
+createTimestamp: 20180615131108Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 6f2e6305-570a-42b6-8609-1c2084184dc2
+createTimestamp: 20180615131113Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 17898912-26f1-47af-92f2-00330871e0ca
+createTimestamp: 20180615131120Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: e1e1c723-c8f9-4bb1-b7bc-a8dc4d009714
+createTimestamp: 20180615131125Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Users,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Users
+description: All people in office
+entryUUID: 10b9565f-5abb-4738-b167-4e10fac71d74
+createTimestamp: 20180615131132Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 6170a79c-0f24-4343-ba25-d3636bdb6051
+createTimestamp: 20180615131515Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: c9210db1-aed3-43d9-bec5-b3999fedfb74
+createTimestamp: 20180615132004Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 524d0dd6-964f-4534-8b58-924ca907964d
+createTimestamp: 20180615132004Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: cc19ddc9-044c-4838-b3c4-e54e04b8bfb2
+createTimestamp: 20180615132004Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Naples,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: ff8776f9-c823-4ed1-84e0-8506ea695434
+createTimestamp: 20180615132004Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: f0574631-5b2b-496d-9569-b289c477e49c
+createTimestamp: 20180615132011Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 51c91e2d-fea2-4948-9780-9b600925c6f8
+createTimestamp: 20180615132011Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: f2c72b5d-2f6e-4d50-8691-629e2e42b5e5
+createTimestamp: 20180615132011Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Rome,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: f5b67bd9-d0f3-4d0f-9c60-7df690bcf700
+createTimestamp: 20180615132011Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: f4b5aabd-5b9b-463d-84cf-6b2331aa9811
+createTimestamp: 20180615132021Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: e78e7aec-a4eb-4b9d-bbe1-d8458a4c0fe5
+createTimestamp: 20180615132021Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 1f6ced4c-df37-485e-9660-9f9d4102e993
+createTimestamp: 20180615132021Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Venece,ou=Italy,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: e61104f4-8876-49dd-b679-4946714ccc7b
+createTimestamp: 20180615132021Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 943972a7-4d1c-4a66-8387-19bad6118576
+createTimestamp: 20180615132028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 175d50a6-358a-44df-a5af-fecfd0dd0470
+createTimestamp: 20180615132028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 63cfde1a-af66-4852-81ea-65d770e0a4a5
+createTimestamp: 20180615132028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Kyiv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: f62d17de-ccd3-4c67-9979-831d50a6b5a1
+createTimestamp: 20180615132028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: da0e15c9-a991-4663-9a21-d2ea67ca19c7
+createTimestamp: 20180615132038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 91ba3f0a-83a0-43e1-8cef-2c401eb07320
+createTimestamp: 20180615132038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 05865e6e-76de-4795-88cc-d60addc962f0
+createTimestamp: 20180615132038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Lviv,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: 50be84c4-1752-47e1-a6ea-b347fc8e5450
+createTimestamp: 20180615132038Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 5deea324-393f-406f-a9ab-8df9fd96124d
+createTimestamp: 20180615132046Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: ec9f6eb0-ea36-4c9a-a2db-1b2fd2a66001
+createTimestamp: 20180615132046Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: afba253e-5ea5-45dd-8d7b-2539453da914
+createTimestamp: 20180615132046Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Odesa,ou=Ukraine,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: d4f13225-8536-42e2-a050-a548104f1136
+createTimestamp: 20180615132046Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 842b43a0-4f4f-445c-b7e8-4c9575073292
+createTimestamp: 20180615132051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 67264a4d-672d-479e-a17f-b9092dbfd1ec
+createTimestamp: 20180615132051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: bdc1e93e-ef71-4233-8840-f728e2ad899f
+createTimestamp: 20180615132051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=Detroit,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: f1000b5f-e2e5-41c8-8dcf-35e019f1d06a
+createTimestamp: 20180615132051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 069c7df5-8eaf-49e9-82fa-ee3eea93a54d
+createTimestamp: 20180615132058Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 0001359e-8ff8-40ca-8452-d8d279dc1655
+createTimestamp: 20180615132058Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 90ae377f-b4c9-453b-9036-4f2d4a2ef8e1
+createTimestamp: 20180615132058Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=New Orlean,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: 3c90cff1-8d0f-4042-8ffd-893f889f7f74
+createTimestamp: 20180615132058Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 0a787c22-b048-4547-99bd-26d011012c96
+createTimestamp: 20180615132104Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: 9881ac86-0d20-45ec-846b-69d97941016e
+createTimestamp: 20180615132104Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 93ec09c9-ba4a-48f1-a35b-28440fda0e13
+createTimestamp: 20180615132104Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=New York,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: 93f69eca-23d7-41ab-b8b5-9ed26f963e77
+createTimestamp: 20180615132104Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Groups,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Groups
+description: OU with all user groups
+entryUUID: 44d4b96f-3e01-4a12-8ac6-a0cef23135d7
+createTimestamp: 20180615132111Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Developers,ou=Groups,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Developers
+entryUUID: d2776de8-0fac-4e5c-9b10-fafc1d693f8b
+createTimestamp: 20180615132111Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Administrators,ou=Groups,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Administrators
+entryUUID: 5d0a289a-d32a-434d-bdde-0226279ee0c8
+createTimestamp: 20180615132111Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=Sales,ou=Groups,ou=South Park,ou=USA,dc=pain,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Sales
+entryUUID: 5dd9b0ef-f15e-4c64-92b7-68fb0a2ad43f
+createTimestamp: 20180615132111Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=vpapidokha,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: vpapidokha
+uidNumber: 5744
+homeDirectory: /home/vpapidokha
+givenName: Vladyslav
+initials: VP
+ou:: b3U9U2FsZXMsIG91PUdyb3Vwcywgb3U9UGFyaXMsIG91PUZyYW5jZSwgZGM9cGFpbiwgZGM9Y29tDQo=
+gidNumber: 0
+displayName: vpapidokha
+sn: Papidokha
+cn: vpapidokha
+loginShell: bash
+entryUUID: ed8ffe63-1236-494a-978f-3e4db8fab3ca
+createTimestamp: 20180615132627Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20180615144542Z
+
+dn: uid=temper,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: temper
+uidNumber: 3906
+homeDirectory: home
+givenName: Temp
+initials: TT
+gidNumber: 0
+displayName: temp
+sn: Temper
+cn: temp
+loginShell: bash
+entryUUID: 4b8b6795-3c14-48f0-a1b1-ac1d09449ff0
+createTimestamp: 20180615135028Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=uuser,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: uuser
+uidNumber: 23889
+homeDirectory: home/uuser
+givenName: User
+initials: UU
+gidNumber: 0
+displayName: uuser
+sn: Userer
+cn: uuser
+loginShell: bash
+entryUUID: 0882350a-2354-4363-b1c2-8645500b3799
+createTimestamp: 20180615135051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=mmainy,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: mmainy
+uidNumber: 30943
+homeDirectory: /home/mainy
+givenName: Main
+initials: MM
+gidNumber: 0
+displayName: mmain
+sn: Mainy
+cn: mmain
+loginShell: bash
+entryUUID: b2c18df3-69f3-4c33-9b06-57ff2461b6ff
+createTimestamp: 20180615135115Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=ssomeonet,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: ssomeonet
+uidNumber: 58756
+homeDirectory: /home/ssomeoner
+givenName: Someone
+initials: SS
+gidNumber: 0
+displayName: ssomeone
+sn: Someoner
+cn: ssomeone
+loginShell: bash
+entryUUID: 6c092953-9dc7-48f1-8bf1-a788528651aa
+createTimestamp: 20180615135140Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: uid=mboy,ou=Users,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: organizationalPerson
+objectClass: top
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: mboy
+uidNumber: 20663
+homeDirectory: /home/mboy
+givenName: Magic
+initials: MB
+gidNumber: 0
+displayName: mboy
+sn: Boy
+cn: mboy
+loginShell: bash
+entryUUID: 32def958-d911-4dd4-9b28-ca27e16b208c
+createTimestamp: 20180615135204Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=HR,ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: groupofnames
+objectClass: top
+member: cn=vpapidokha, cn=uuser, cn=temper, cn=mboy
+member: cn=ssomeonet, ou=Users, ou=Paris, ou=France, dc=pain, dc=com
+member: cn=temper, ou=Users, ou=Paris, ou=France, dc=pain, dc=com
+member: cn=mmainy, ou=Users, ou=Paris, ou=France, dc=pain, dc=com
+cn: HR
+entryUUID: 264a678f-dd63-4297-96d4-23462627a3d0
+createTimestamp: 20180615145547Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20180615154052Z
+
+dn: cn=Administrators,ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: groupOfNames
+objectClass: top
+member: cn=vpapidokha, ou=Users, ou=Paris, ou=France, dc=pain, dc=com
+member: cn=uuser, ou=Users, ou=Paris, ou=France, dc=pain, dc=com
+member: cn=temper, ou=Users, ou=Paris, ou=France, dc=pain, dc=com
+member: cn=ssomeonet, ou=Users, ou=Paris, ou=France, dc=pain, dc=com
+cn: Administrators
+entryUUID: 44839319-4eb3-4a77-949d-9b9e17b069ff
+createTimestamp: 20180615145911Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20180615153857Z
+
+dn: cn=DevOps,ou=Groups,ou=Paris,ou=France,dc=pain,dc=com
+objectClass: groupOfNames
+objectClass: top
+member: cn=vpapidokha, ou=Users, ou=Paris, ou=France, dc=pain, dc=com
+member: cn=mboy, ou=Users, ou=Paris, ou=France, dc=pain, dc=com
+member: cn=mmainy, ou=Users, ou=Paris, ou=France, dc=pain, dc=com
+member: cn=ssomeonet, ou=Users, ou=Paris, ou=France, dc=pain, dc=com
+cn: cn=DevOps
+cn: DevOps
+entryUUID: fd260456-16c0-462c-b11f-1939610e1332
+createTimestamp: 20180615150008Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20180615153950Z
+
